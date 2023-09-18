@@ -6,7 +6,7 @@ import UserData  from "../component/UserData";
 import CreditCards from "../data/CreditCards";
 
 const Cards = () => {
-    const [cards, setCards] = useState(creditCards);
+    const [cards, setCards] = useState(CreditCards);
 
     const setActiveCard = (selectedCard) => {
         const updatedCards = cards.map((card) =>
